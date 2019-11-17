@@ -27,6 +27,9 @@ Run tests
 	
 	make
 
+## Use get_next_line
+	make gnl buff=32
+
 ## Advanced use
 Run only some tests
 
