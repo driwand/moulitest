@@ -28,6 +28,8 @@ Run tests
 	make
 
 ## Use get_next_line
+Specify a buffer size
+
 	make gnl buff=32
 
 ## Advanced use
