@@ -5,4 +5,4 @@ ifneq ("$(wildcard $(RENDU_PATH)/libft)","")
 	CC_LIBS = -lft -L $(RENDU_PATH)/libft
 endif
 
-CC_SOURCE_EXTRA = $(RENDU_PATH)/get_next_line.c
+CC_SOURCE_EXTRA = $(RENDU_PATH)/get_next_line.c $(RENDU_PATH)/get_next_line_utils.c
